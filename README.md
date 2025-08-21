@@ -1,7 +1,2 @@
-# Flask Web App Starter
-
-A Flask starter template as per [these docs](https://flask.palletsprojects.com/en/3.0.x/quickstart/#a-minimal-application).
-
-## Getting Started
-
-Previews should run automatically when starting a workspace.
+c5.  **Desescalonamento (Pós-processamento)**: Para exibir os resultados na magnitude correta, a aplicação multiplica **todas** as saídas do modelo (a média da previsão, o erro padrão e os intervalos de confiança) pelo fator de escala (1 milhão). **Esta etapa é crucial para garantir que os resultados sejam estatisticamente consistentes e interpretáveis.**
+6.  **Visualização**: Os dados históricos e os dados previstos (já na escala correta) são enviados para o template, onde a biblioteca Chart.js os renderiza em um gráfico de linhas interativo e informativo.

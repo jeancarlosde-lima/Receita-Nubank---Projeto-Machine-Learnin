@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Previsão de Receita - Nubank</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Previsão de Receita para o Nubank</h1>
+        <p>Use o formulário abaixo para gerar uma projeção da receita trimestral do Nubank (NU) usando um modelo de séries temporais (SARIMA).</p>
+        
+        <form action="/prever" method="post">
+            <label for="trimestres">Prever os próximos:</label>
+            <input type="number" id="trimestres" name="trimestres" min="1" max="12" value="4">
+            <span>trimestres.</span>
+            
+            <input type="submit" value="Gerar Previsão">
+        </form>
+    </div>
+</body>
+</html>

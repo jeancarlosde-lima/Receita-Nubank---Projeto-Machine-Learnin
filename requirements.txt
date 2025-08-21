@@ -4,3 +4,12 @@ autopep8
 
 # App
 flask
+
+# Project dependencies
+pandas
+yfinance
+numpy
+matplotlib
+seaborn
+statsmodels
+scikit-learn
