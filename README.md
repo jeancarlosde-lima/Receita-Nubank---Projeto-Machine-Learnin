@@ -120,7 +120,7 @@ Uma aplicação web inteligente que utiliza **Machine Learning** para prever a r
 
 ---
 
-## 🚀 **Funcionalidades**     ← CONTINUA O README ORIGINAL
+## 🚀 **Funcionalidades**    
 
 | Funcionalidade | Descrição |
 |---|---|
