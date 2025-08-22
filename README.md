@@ -136,82 +136,99 @@ Uma aplicação web inteligente que utiliza **Machine Learning** para prever a r
 </div>
 
 ---
+---
 
-⚡ Quick Start
-📋 Pré-requisitos
+## ⚡ Quick Start
 
-Python 3.8+
-pip
-Ambiente virtual (recomendado)
+### 📋 **Pré-requisitos**
+- Python 3.8+
+- pip
+- Ambiente virtual (recomendado)
 
-🚀 Instalação Rápida
-bash# Clone o repositório
-git clone https://github.com/seu-usuario/nubank-revenue-forecast.git
-cd nubank-revenue-forecast
+### 🚀 **Instalação Rápida**
 
-# Ative o ambiente virtual
+# 1. Clone o repositório
+# Lembre-se de substituir 'seu-usuario' e o nome do repositório se necessário
+git clone https://github.com/jeancarlosde-lima/[NOME_DO_SEU_REPOSITORIO].git
+cd [NOME_DO_SEU_REPOSITORIO]
+
+# 2. Crie e ative o ambiente virtual (exemplo para Linux/macOS)
+python3 -m venv .venv
 source .venv/bin/activate
 
-# Execute o servidor
+# 3. Instale as dependências
+pip install -r requirements.txt
+
+# 4. Execute o servidor de desenvolvimento
+# O script devserver.sh pode conter comandos como 'flask run'
 ./devserver.sh
+
 <div align="center">
-  <img src="https://img.shields.io/badge/🎉%20Pronto!-Acesse%20sua%20aplicação-success?style=for-the-badge" alt="Ready">
+  <img src="https://img.shields.io/badge/🎉%20Pronto!-Acesse%20http://127.0.0.1:5000-success?style=for-the-badge" alt="Ready">
 </div>
 
-📱 Como Usar
+### 📱 **Como Usar**
 
-🎯 Defina o Período: Escolha de 1 a 12 trimestres para previsão
-🚀 Execute a Análise: Clique em "Prever" e aguarde o processamento
-📊 Visualize os Resultados: Analise gráficos interativos e tabelas detalhadas
-💡 Tome Decisões: Use as insights para planejamento estratégico
+🎯 Defina o Período: Escolha de 1 a 12 trimestres para previsão.
 
+🚀 Execute a Análise: Clique em "Gerar Previsão" e aguarde o processamento.
+
+📊 Visualize os Resultados: Analise gráficos interativos e tabelas detalhadas.
+
+💡 Tome Decisões: Use os insights para planejamento estratégico.
 
 🏗️ Arquitetura do Sistema
-mermaidgraph TD
-    A[👤 Usuário] --> B[🌐 Interface Web]
-    B --> C[⚙️ Flask Server]
-    C --> D[🤖 Modelo SARIMA]
-    D --> E[📊 Previsões]
-    E --> F[📈 Visualização]
-    F --> B
+graph TD
+    subgraph "Fluxo de Dados da Aplicação"
+        A[👤 Usuário] --> B{🌐 Interface Web};
+        B -- Requisição --> C[⚙️ Servidor Flask];
+        C -- Executa --> D[🤖 Modelo SARIMA];
+        D -- Gera --> E[📊 Previsões];
+        E -- Retorna para --> C;
+        C -- Envia para --> F[📈 Visualização Chart.js];
+        F --> B;
+    end
 
-📈 Metodologia SARIMA
+    📈 Metodologia SARIMA
 <div align="center">
-Mostrar Imagem
+
 </div>
+
 O modelo utiliza componentes sazonais para capturar padrões trimestrais nas receitas do Nubank, proporcionando previsões mais precisas e confiáveis.
 
 🤝 Contribuindo
 <div align="center">
-Mostrar Imagem
+
 </div>
 
-🍴 Fork o projeto
-🌟 Crie sua feature branch (git checkout -b feature/AmazingFeature)
-💾 Commit suas mudanças (git commit -m 'Add some AmazingFeature')
-📤 Push para a branch (git push origin feature/AmazingFeature)
-🔄 Abra um Pull Request
+🍴 Faça um Fork do projeto.
 
+🌟 Crie sua Feature Branch (git checkout -b feature/AmazingFeature).
+
+💾 Faça o Commit de suas mudanças (git commit -m 'Add some AmazingFeature').
+
+📤 Faça o Push para a Branch (git push origin feature/AmazingFeature).
+
+🔄 Abra um Pull Request.
 
 📄 Licença
 <div align="center">
-Mostrar Imagem
-Distribuído sob a Licença MIT. Veja LICENSE para mais informações.
+
 </div>
+
+Distribuído sob a Licença MIT. Veja LICENSE para mais informações.
 
 📞 Contato & Suporte
 <div align="center">
-Mostrar Imagem
-Mostrar Imagem
-Mostrar Imagem
+
 </div>
 
 <div align="center">
+
 🌟 Se este projeto foi útil para você, considere dar uma estrela! ⭐
-Mostrar Imagem
-Mostrar Imagem
 </div>
 
 <div align="center">
-  <sub>Feito por <a href="https://github.com/jeancarlosde-lima">Seu Nome</a></sub>
+  <sub>Feito por <a href="https://github.com/jeancarlosde-lima">Jean Lima</a></sub>
 </div>
+
