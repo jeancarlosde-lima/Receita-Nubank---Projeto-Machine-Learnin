@@ -58,12 +58,12 @@ Uma aplicação web inteligente que utiliza **Machine Learning** para prever a r
   </tr>
   <tr>
     <td>
-            <img src="URL_DA_SUA_IMAGEM_PAGINA_INICIAL" alt="Interface Principal" width="400"/>
+            <img src="https://github.com/jeancarlosde-lima/Receita-Nubank---Projeto-Machine-Learnin/blob/main/p%C3%A1gina%20inicial.png" alt="Interface Principal" width="400"/>
       <br/>
       <em>Interface intuitiva para configuração.</em>
     </td>
     <td>
-            <img src="URL_DA_SUA_IMAGEM_DASHBOARD" alt="Resultados da Previsão" width="400"/>
+            <img src="https://github.com/jeancarlosde-lima/Receita-Nubank---Projeto-Machine-Learnin/blob/main/dashboard.png" alt="Resultados da Previsão" width="400"/>
       <br/>
       <em>Visualização avançada dos resultados.</em>
     </td>
@@ -137,93 +137,81 @@ Uma aplicação web inteligente que utiliza **Machine Learning** para prever a r
 
 ---
 
-## ⚡ **Quick Start**
+⚡ Quick Start
+📋 Pré-requisitos
 
-### 📋 **Pré-requisitos**
-- Python 3.8+
-- pip
-- Ambiente virtual (recomendado)
+Python 3.8+
+pip
+Ambiente virtual (recomendado)
 
-### 🚀 **Instalação Rápida**
+🚀 Instalação Rápida
+bash# Clone o repositório
+git clone https://github.com/seu-usuario/nubank-revenue-forecast.git
+cd nubank-revenue-forecast
 
-```bash
-# Clone o repositório
-# CORREÇÃO APLICADA: Atualizado com seu usuário e um placeholder para o repositório
-git clone [https://github.com/jeancarlosde-lima/](https://github.com/jeancarlosde-lima/)[NOME_DO_SEU_REPOSITORIO].git
-cd [NOME_DO_SEU_REPOSITORIO]
-
-# Crie e ative o ambiente virtual (exemplo para Linux/macOS)
-python3 -m venv .venv
+# Ative o ambiente virtual
 source .venv/bin/activate
 
-# Instale as dependências
-pip install -r requirements.txt
-
 # Execute o servidor
-flask run
+./devserver.sh
 <div align="center">
-  <img src="https://img.shields.io/badge/🎉%20Pronto!-Acesse%20https://www.google.com/search?q=http://127.0.0.1:5000-success?style=for-the-badge" alt="Ready">
+  <img src="https://img.shields.io/badge/🎉%20Pronto!-Acesse%20sua%20aplicação-success?style=for-the-badge" alt="Ready">
 </div>
 
 📱 Como Usar
+
 🎯 Defina o Período: Escolha de 1 a 12 trimestres para previsão
-
-🚀 Execute a Análise: Clique em "Gerar Previsão" e aguarde o processamento
-
+🚀 Execute a Análise: Clique em "Prever" e aguarde o processamento
 📊 Visualize os Resultados: Analise gráficos interativos e tabelas detalhadas
-
 💡 Tome Decisões: Use as insights para planejamento estratégico
 
-🏗️ Arquitetura do Sistema
-Snippet de código
 
-graph TD
-    A[👤 Usuário] --> B[🌐 Interface Web]
-    B --> C[⚙️ Flask Server]
-    C --> D[🤖 Modelo SARIMA]
-    D --> E[📊 Previsões]
-    E --> F[📈 Visualização]
-    F --> B
+🏗️ Arquitetura do Sistema
+mermaidgraph TD
+    A[👤 Usuário] --> B[🌐 Interface Web]
+    B --> C[⚙️ Flask Server]
+    C --> D[🤖 Modelo SARIMA]
+    D --> E[📊 Previsões]
+    E --> F[📈 Visualização]
+    F --> B
+
 📈 Metodologia SARIMA
 <div align="center">
-
+Mostrar Imagem
 </div>
-
 O modelo utiliza componentes sazonais para capturar padrões trimestrais nas receitas do Nubank, proporcionando previsões mais precisas e confiáveis.
 
 🤝 Contribuindo
 <div align="center">
-
+Mostrar Imagem
 </div>
 
 🍴 Fork o projeto
-
 🌟 Crie sua feature branch (git checkout -b feature/AmazingFeature)
-
 💾 Commit suas mudanças (git commit -m 'Add some AmazingFeature')
-
 📤 Push para a branch (git push origin feature/AmazingFeature)
-
 🔄 Abra um Pull Request
+
 
 📄 Licença
 <div align="center">
-
+Mostrar Imagem
 Distribuído sob a Licença MIT. Veja LICENSE para mais informações.
-
 </div>
 
 📞 Contato & Suporte
 <div align="center">
-
+Mostrar Imagem
+Mostrar Imagem
+Mostrar Imagem
 </div>
 
 <div align="center">
-
 🌟 Se este projeto foi útil para você, considere dar uma estrela! ⭐
+Mostrar Imagem
+Mostrar Imagem
 </div>
 
 <div align="center">
-  <sub>Feito por <a href="https://github.com/jeancarlosde-lima">Jean Lima</a></sub>
+  <sub>Feito por <a href="https://github.com/jeancarlosde-lima">Seu Nome</a></sub>
 </div>
-
