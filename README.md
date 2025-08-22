@@ -168,5 +168,5 @@ Distribuído sob a Licença MIT. Veja `LICENSE` para mais informações.
 ---
 
 <div align="center">
-  <sub>Feito com ❤️ por <a href="https://github.com/seu-usuario">Seu Nome</a></sub>
+  <sub>Feito com ❤️ por <a href="https://github.com/jeancarlosde-lima">Seu Nome</a></sub>
 </div>
