@@ -245,7 +245,7 @@ Distribuído sob a Licença MIT. Veja `LICENSE` para mais informações.
 <div align="center">
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jeancarlosodelima/)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/https://github.com/jeancarlosde-lima)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jeancarlosde-lima)
 
 </div>
 
@@ -263,5 +263,5 @@ Distribuído sob a Licença MIT. Veja `LICENSE` para mais informações.
 ---
 
 <div align="center">
-  <sub>Feito com ❤️ por <a href="https://github.com/jeancarlosde-lima">Seu Nome</a></sub>
+  <sub>Feito por <a href="https://github.com/jeancarlosde-lima">Jean Lima</a></sub>
 </div>
