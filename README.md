@@ -108,7 +108,7 @@ Uma aplicação web inteligente que utiliza **Machine Learning** para prever a r
 
 | Passo | Ação | Resultado |
 |:---:|---|---|
-| **1️⃣** | **Acesse** → [Demo ao Vivo](https://nubank-forecast.vercel.app) | Interface carrega instantaneamente |
+| **1️⃣** | **Acesse** → [Demo ao Vivo](https://receita-nubank-projeto-machine-learnin-production.up.railway.app/prever) | Interface carrega instantaneamente |
 | **2️⃣** | **Configure** → Selecione 1-12 trimestres para previsão | Parâmetros ajustados automaticamente |
 | **3️⃣** | **Visualize** → Clique em "Gerar Previsão" | Gráficos e relatórios em tempo real |
 
