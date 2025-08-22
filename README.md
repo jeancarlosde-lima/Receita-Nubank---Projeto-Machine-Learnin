@@ -71,7 +71,7 @@ Uma aplicação web inteligente que utiliza **Machine Learning** para prever a r
   <tr>
     <td align="center"><strong>📈 Gráficos Interativos</strong></td>
     <td align="center"><strong>📱 Interface Mobile</strong></td>
-  </tr>
+    </tr>
   <tr>
     <td>
             <img src="https://github.com/jeancarlosde-lima/Receita-Nubank---Projeto-Machine-Learnin/blob/main/grafico.png" alt="Gráficos Interativos" width="400"/>
@@ -138,46 +138,82 @@ Uma aplicação web inteligente que utiliza **Machine Learning** para prever a r
 ---
 ---
 
+
+
+
 ## ⚡ Quick Start
 
-### 📋 **Pré-requisitos**
+Para colocar o projeto em funcionamento rapidamente, siga os passos abaixo:
+
+### 📋 Pré-requisitos
+
+Certifique-se de ter os seguintes softwares instalados em seu sistema:
+
 - Python 3.8+
-- pip
-- Ambiente virtual (recomendado)
+- pip (gerenciador de pacotes do Python)
+- Ambiente virtual (altamente recomendado para isolar as dependências do projeto)
 
-### 🚀 **Instalação Rápida**
+### 🚀 Instalação Rápida
 
-# 1. Clone o repositório
-# Lembre-se de substituir 'seu-usuario' e o nome do repositório se necessário
+Siga estas instruções para configurar e executar a aplicação:
+
+#### 1. Clone o repositório
+
+```bash
 git clone https://github.com/jeancarlosde-lima/[NOME_DO_SEU_REPOSITORIO].git
 cd [NOME_DO_SEU_REPOSITORIO]
+```
 
-# 2. Crie e ative o ambiente virtual (exemplo para Linux/macOS)
+*Lembre-se de substituir `[NOME_DO_SEU_REPOSITORIO]` pelo nome real do repositório, se necessário.*
+
+#### 2. Crie e ative o ambiente virtual
+
+```bash
 python3 -m venv .venv
-source .venv/bin/activate
+source .venv/bin/activate  # Para Linux/macOS
+# .venv\Scripts\activate  # Para Windows (PowerShell)
+```
 
-# 3. Instale as dependências
+#### 3. Instale as dependências
+
+```bash
 pip install -r requirements.txt
+```
 
-# 4. Execute o servidor de desenvolvimento
-# O script devserver.sh pode conter comandos como 'flask run'
+#### 4. Execute o servidor de desenvolvimento
+
+```bash
 ./devserver.sh
+```
+
+*O script `devserver.sh` pode conter comandos como `flask run` para iniciar o servidor.*
 
 <div align="center">
   <img src="https://img.shields.io/badge/🎉%20Pronto!-Acesse%20http://127.0.0.1:5000-success?style=for-the-badge" alt="Ready">
 </div>
 
-### 📱 **Como Usar**
 
-🎯 Defina o Período: Escolha de 1 a 12 trimestres para previsão.
 
-🚀 Execute a Análise: Clique em "Gerar Previsão" e aguarde o processamento.
 
-📊 Visualize os Resultados: Analise gráficos interativos e tabelas detalhadas.
 
-💡 Tome Decisões: Use os insights para planejamento estratégico.
+### 📱 Como Usar
 
-🏗️ Arquitetura do Sistema
+Para utilizar a aplicação e gerar suas previsões de receita, siga os passos:
+
+1.  **Defina o Período**: Escolha o número de trimestres (de 1 a 12) para os quais deseja gerar a previsão.
+2.  **Execute a Análise**: Clique no botão "Gerar Previsão" e aguarde o processamento dos dados.
+3.  **Visualize os Resultados**: Explore os gráficos interativos e as tabelas detalhadas que serão apresentados.
+4.  **Tome Decisões**: Utilize os insights obtidos para auxiliar no planejamento estratégico e na tomada de decisões financeiras.
+
+
+
+
+
+## 🏗️ Arquitetura do Sistema
+
+A arquitetura da aplicação é baseada em um fluxo de dados claro e eficiente, conforme ilustrado no diagrama abaixo:
+
+```mermaid
 graph TD
     subgraph "Fluxo de Dados da Aplicação"
         A[👤 Usuário] --> B{🌐 Interface Web};
@@ -188,40 +224,49 @@ graph TD
         C -- Envia para --> F[📈 Visualização Chart.js];
         F --> B;
     end
+```
 
-    📈 Metodologia SARIMA
-<div align="center">
+Este diagrama detalha como as interações do usuário fluem através da interface web, são processadas pelo servidor Flask, utilizam o modelo SARIMA para gerar previsões e, finalmente, são visualizadas através de gráficos interativos.
 
-</div>
 
-O modelo utiliza componentes sazonais para capturar padrões trimestrais nas receitas do Nubank, proporcionando previsões mais precisas e confiáveis.
 
-🤝 Contribuindo
-<div align="center">
 
-</div>
 
-🍴 Faça um Fork do projeto.
+## 📈 Metodologia SARIMA
 
-🌟 Crie sua Feature Branch (git checkout -b feature/AmazingFeature).
+O modelo **SARIMA (Seasonal AutoRegressive Integrated Moving Average)** é o coração desta aplicação, responsável por gerar previsões precisas da receita do Nubank. Ele é especialmente adequado para dados de séries temporais que exibem padrões sazonais, como os dados financeiros trimestrais.
 
-💾 Faça o Commit de suas mudanças (git commit -m 'Add some AmazingFeature').
+O SARIMA incorpora componentes sazonais (P, D, Q, S) além dos componentes não sazonais (p, d, q) de um modelo ARIMA tradicional. Isso permite que ele capture e modele efetivamente as flutuações e tendências que se repetem em intervalos regulares (neste caso, trimestralmente), resultando em previsões mais robustas e confiáveis.
 
-📤 Faça o Push para a Branch (git push origin feature/AmazingFeature).
 
-🔄 Abra um Pull Request.
 
-📄 Licença
-<div align="center">
 
-</div>
 
-Distribuído sob a Licença MIT. Veja LICENSE para mais informações.
+## 🤝 Contribuindo
 
-📞 Contato & Suporte
-<div align="center">
+Contribuições são sempre bem-vindas! Se você deseja aprimorar este projeto, siga os passos abaixo:
 
-</div>
+1.  **Faça um Fork** do projeto.
+2.  **Crie sua Feature Branch** (`git checkout -b feature/AmazingFeature`).
+3.  **Faça o Commit** de suas mudanças (`git commit -m 'Add some AmazingFeature'`).
+4.  **Faça o Push** para a Branch (`git push origin feature/AmazingFeature`).
+5.  **Abra um Pull Request**.
+
+
+
+
+
+## 📄 Licença
+
+Este projeto é distribuído sob a Licença MIT. Para mais detalhes, consulte o arquivo `LICENSE` na raiz do repositório.
+
+
+
+
+
+## 📞 Contato & Suporte
+
+Para dúvidas, sugestões ou suporte, sinta-se à vontade para entrar em contato com o autor:
 
 <div align="center">
 
@@ -231,4 +276,5 @@ Distribuído sob a Licença MIT. Veja LICENSE para mais informações.
 <div align="center">
   <sub>Feito por <a href="https://github.com/jeancarlosde-lima">Jean Lima</a></sub>
 </div>
+
 
