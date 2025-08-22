@@ -28,12 +28,24 @@ Uma aplicação web inteligente que utiliza **Machine Learning** para prever a r
 - 🎨 **Interface Moderna**: Design responsivo e user-friendly
 - ⚡ **Performance Otimizada**: Carregamento rápido e processamento eficiente
 
-🎬 Demonstração da Aplicação
+### ✨ **Destaques**
+- 🔮 **Previsões Precisas**: Modelo SARIMA otimizado para dados financeiros
+- 📈 **Visualização Interativa**: Gráficos dinâmicos com Chart.js
+- 🎨 **Interface Moderna**: Design responsivo e user-friendly
+- ⚡ **Performance Otimizada**: Carregamento rápido e processamento eficiente
+
+---
+
+# 🎬 **Demonstração da Aplicação**     ← INSERIR AQUI
+
 <div align="center">
-🚀 Veja a Aplicação em Ação!
-🎥 Navegação Completa (GIF)
-Mostrar Imagem
-🌐 Teste Agora - Demo ao Vivo
+
+## 🚀 **Veja a Aplicação em Ação!**
+
+### 🎥 **Navegação Completa (GIF)**
+![Demo da Aplicação](assets/demo/nubank-forecast-demo.gif)
+
+### 🌐 **Teste Agora - Demo ao Vivo**
 <div>
   <a href="https://nubank-forecast.vercel.app" target="_blank">
     <img src="https://img.shields.io/badge/🚀%20TESTAR%20AGORA-Live%20Demo-success?style=for-the-badge&logo=vercel" alt="Demo ao Vivo" height="50">
@@ -42,7 +54,9 @@ Mostrar Imagem
     <img src="https://img.shields.io/badge/🔗%20Demo%20Alternativo-Railway-blue?style=for-the-badge&logo=railway" alt="Demo Backup" height="50">
   </a>
 </div>
-📸 Screenshots da Interface
+
+### 📸 **Screenshots da Interface**
+
 <table>
   <tr>
     <td align="center"><strong>🏠 Página Inicial</strong></td>
@@ -77,19 +91,40 @@ Mostrar Imagem
     </td>
   </tr>
 </table>
+
 </div>
 
-🎯 Guia Rápido da Demo
+---
+
+## 🎯 **Guia Rápido da Demo**
+
 <div align="center">
-📋 Em 3 Simples Passos
-</div>
-PassoAçãoResultado1️⃣Acesse → Demo ao VivoInterface carrega instantaneamente2️⃣Configure → Selecione 1-12 trimestres para previsãoParâmetros ajustados automaticamente3️⃣Visualize → Clique em "Gerar Previsão"Gráficos e relatórios em tempo real
-<div align="center">
-Mostrar Imagem
-Mostrar Imagem
-Mostrar Imagem
+
+### 📋 **Em 3 Simples Passos**
+
 </div>
 
+| Passo | Ação | Resultado |
+|:---:|---|---|
+| **1️⃣** | **Acesse** → [Demo ao Vivo](https://nubank-forecast.vercel.app) | Interface carrega instantaneamente |
+| **2️⃣** | **Configure** → Selecione 1-12 trimestres para previsão | Parâmetros ajustados automaticamente |
+| **3️⃣** | **Visualize** → Clique em "Gerar Previsão" | Gráficos e relatórios em tempo real |
+
+<div align="center">
+
+![Status](https://img.shields.io/badge/⚡%20Demo%20Status-Online%2024/7-brightgreen?style=for-the-badge)
+![Performance](https://img.shields.io/badge/🚀%20Loading-Sub%201s-blue?style=for-the-badge)
+![Mobile](https://img.shields.io/badge/📱%20Mobile-100%25%20Responsivo-purple?style=for-the-badge)
+
+</div>
+
+---
+
+## 🚀 **Funcionalidades**     ← CONTINUA O README ORIGINAL
+
+| Funcionalidade | Descrição |
+|---|---|
+| 📊 **Previsão Inteligente** | Gera previsões para 1-12 trimestres futuros |
 ## 🚀 **Funcionalidades**
 
 | Funcionalidade | Descrição |
