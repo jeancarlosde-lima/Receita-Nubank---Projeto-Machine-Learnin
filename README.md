@@ -28,7 +28,67 @@ Uma aplicação web inteligente que utiliza **Machine Learning** para prever a r
 - 🎨 **Interface Moderna**: Design responsivo e user-friendly
 - ⚡ **Performance Otimizada**: Carregamento rápido e processamento eficiente
 
----
+🎬 Demonstração da Aplicação
+<div align="center">
+🚀 Veja a Aplicação em Ação!
+🎥 Navegação Completa (GIF)
+Mostrar Imagem
+🌐 Teste Agora - Demo ao Vivo
+<div>
+  <a href="https://nubank-forecast.vercel.app" target="_blank">
+    <img src="https://img.shields.io/badge/🚀%20TESTAR%20AGORA-Live%20Demo-success?style=for-the-badge&logo=vercel" alt="Demo ao Vivo" height="50">
+  </a>
+  <a href="https://nubank-forecast-backup.railway.app" target="_blank">
+    <img src="https://img.shields.io/badge/🔗%20Demo%20Alternativo-Railway-blue?style=for-the-badge&logo=railway" alt="Demo Backup" height="50">
+  </a>
+</div>
+📸 Screenshots da Interface
+<table>
+  <tr>
+    <td align="center"><strong>🏠 Página Inicial</strong></td>
+    <td align="center"><strong>📊 Dashboard de Previsões</strong></td>
+  </tr>
+  <tr>
+    <td>
+      <img src="assets/screenshots/home-interface.png" alt="Interface Principal" width="400"/>
+      <br/>
+      <em>Interface intuitiva para configuração</em>
+    </td>
+    <td>
+      <img src="assets/screenshots/forecast-results.png" alt="Resultados da Previsão" width="400"/>
+      <br/>
+      <em>Visualização avançada dos resultados</em>
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><strong>📈 Gráficos Interativos</strong></td>
+    <td align="center"><strong>📱 Interface Mobile</strong></td>
+  </tr>
+  <tr>
+    <td>
+      <img src="assets/screenshots/interactive-charts.png" alt="Gráficos Interativos" width="400"/>
+      <br/>
+      <em>Charts dinâmicos com Chart.js</em>
+    </td>
+    <td>
+      <img src="assets/screenshots/mobile-responsive.png" alt="Versão Mobile" width="400"/>
+      <br/>
+      <em>Design responsivo para todos os dispositivos</em>
+    </td>
+  </tr>
+</table>
+</div>
+
+🎯 Guia Rápido da Demo
+<div align="center">
+📋 Em 3 Simples Passos
+</div>
+PassoAçãoResultado1️⃣Acesse → Demo ao VivoInterface carrega instantaneamente2️⃣Configure → Selecione 1-12 trimestres para previsãoParâmetros ajustados automaticamente3️⃣Visualize → Clique em "Gerar Previsão"Gráficos e relatórios em tempo real
+<div align="center">
+Mostrar Imagem
+Mostrar Imagem
+Mostrar Imagem
+</div>
 
 ## 🚀 **Funcionalidades**
 
