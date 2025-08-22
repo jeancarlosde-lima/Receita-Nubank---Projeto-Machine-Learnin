@@ -1,40 +1,172 @@
-# Previsão de Receita para o Nubank (SARIMA)
+# 📊 Nubank Revenue Forecasting 🚀
 
-Este é um projeto de uma aplicação web desenvolvida em Flask que utiliza um modelo de séries temporais (SARIMA) para prever a receita trimestral do Nubank. A aplicação permite que o usuário insira o número de trimestres futuros que deseja prever e exibe os resultados em um gráfico e uma tabela.
+<div align="center">
 
-## Funcionalidades
+![Python](https://img.shields.io/badge/python-v3.8+-blue.svg)
+![Flask](https://img.shields.io/badge/flask-v2.0+-green.svg)
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Status](https://img.shields.io/badge/status-active-success.svg)
+![Contributions](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)
 
--   **Previsão de Receita**: Gera previsões da receita trimestral do Nubank para os próximos 1 a 12 trimestres.
--   **Visualização de Dados**: Exibe os dados históricos e as previsões em um gráfico de linhas interativo.
--   **Tabela de Resultados**: Apresenta uma tabela com os valores previstos, incluindo a média da previsão, o erro padrão e os intervalos de confiança.
+</div>
 
-## Como Funciona
+<div align="center">
+  <img src="https://img.shields.io/badge/ML%20Model-SARIMA-orange?style=for-the-badge" alt="SARIMA Model">
+  <img src="https://img.shields.io/badge/Framework-Flask-lightgrey?style=for-the-badge&logo=flask" alt="Flask">
+  <img src="https://img.shields.io/badge/Data%20Science-Time%20Series-blue?style=for-the-badge" alt="Time Series">
+</div>
 
-1.  **Interface do Usuário**: A página inicial (`index.html`) apresenta um formulário onde o usuário pode inserir o número de trimestres que deseja prever.
-2.  **Requisição de Previsão**: Ao enviar o formulário, uma requisição POST é enviada para a rota `/prever`.
-3.  **Carregamento do Modelo**: A aplicação carrega um modelo SARIMA pré-treinado (do arquivo `model/nubank_sarima.pkl`).
-4.  **Geração da Previsão**: O modelo é usado para gerar a previsão para o número de trimestres solicitado.
-5.  **Pós-processamento**: Os resultados da previsão são desescalonados para a magnitude correta (milhões de dólares).
-6.  **Renderização dos Resultados**: Os dados históricos e previstos são enviados para a página de resultados (`resultado.html`), onde são exibidos em um gráfico (usando Chart.js) e em uma tabela.
+---
 
-## Tecnologias Utilizadas
+## 🎯 **Sobre o Projeto**
 
--   **Back-end**: Python, Flask
--   **Modelo de Machine Learning**: SARIMA (Statsmodels)
--   **Front-end**: HTML, CSS, JavaScript (Chart.js)
--   **Bibliotecas Python**: Pandas, Scikit-learn, Statsmodels
+Uma aplicação web inteligente que utiliza **Machine Learning** para prever a receita trimestral do Nubank! Com interface moderna e intuitiva, permite análises precisas de séries temporais usando o poderoso modelo **SARIMA**.
 
-## Como Executar o Projeto
+### ✨ **Destaques**
+- 🔮 **Previsões Precisas**: Modelo SARIMA otimizado para dados financeiros
+- 📈 **Visualização Interativa**: Gráficos dinâmicos com Chart.js
+- 🎨 **Interface Moderna**: Design responsivo e user-friendly
+- ⚡ **Performance Otimizada**: Carregamento rápido e processamento eficiente
 
-1.  **Ative o Ambiente Virtual**:
-    ```bash
-    source .venv/bin/activate
-    ```
+---
 
-2.  **Execute o Servidor de Desenvolvimento**:
-    ```bash
-    ./devserver.sh
-    ```
-    O script irá iniciar o servidor Flask. Você pode acessar a aplicação no painel de visualização do seu IDE ou no navegador.
+## 🚀 **Funcionalidades**
 
-**Observação**: O modelo `nubank_sarima.pkl` já está treinado e incluído no projeto, então não é necessário treiná-lo novamente para executar a aplicação.
+| Funcionalidade | Descrição |
+|---|---|
+| 📊 **Previsão Inteligente** | Gera previsões para 1-12 trimestres futuros |
+| 📈 **Visualização Avançada** | Gráficos interativos com dados históricos e previsões |
+| 📋 **Relatórios Detalhados** | Tabelas com intervalos de confiança e métricas |
+| 🎯 **Interface Intuitiva** | UX/UI otimizada para análise de dados |
+
+---
+
+## 🛠️ **Stack Tecnológica**
+
+<div align="center">
+
+| Backend | Frontend | ML/Data Science |
+|:---:|:---:|:---:|
+| ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) | ![Pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) |
+| ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white) | ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) | ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white) |
+| | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) | ![Statsmodels](https://img.shields.io/badge/Statsmodels-blue?style=for-the-badge) |
+
+</div>
+
+---
+
+## ⚡ **Quick Start**
+
+### 📋 **Pré-requisitos**
+- Python 3.8+
+- pip
+- Ambiente virtual (recomendado)
+
+### 🚀 **Instalação Rápida**
+
+```bash
+# Clone o repositório
+git clone https://github.com/seu-usuario/nubank-revenue-forecast.git
+cd nubank-revenue-forecast
+
+# Ative o ambiente virtual
+source .venv/bin/activate
+
+# Execute o servidor
+./devserver.sh
+```
+
+<div align="center">
+  <img src="https://img.shields.io/badge/🎉%20Pronto!-Acesse%20sua%20aplicação-success?style=for-the-badge" alt="Ready">
+</div>
+
+---
+
+## 📱 **Como Usar**
+
+1. **🎯 Defina o Período**: Escolha de 1 a 12 trimestres para previsão
+2. **🚀 Execute a Análise**: Clique em "Prever" e aguarde o processamento
+3. **📊 Visualize os Resultados**: Analise gráficos interativos e tabelas detalhadas
+4. **💡 Tome Decisões**: Use as insights para planejamento estratégico
+
+---
+
+## 🏗️ **Arquitetura do Sistema**
+
+```mermaid
+graph TD
+    A[👤 Usuário] --> B[🌐 Interface Web]
+    B --> C[⚙️ Flask Server]
+    C --> D[🤖 Modelo SARIMA]
+    D --> E[📊 Previsões]
+    E --> F[📈 Visualização]
+    F --> B
+```
+
+---
+
+## 📈 **Metodologia SARIMA**
+
+<div align="center">
+
+![SARIMA](https://img.shields.io/badge/SARIMA-Seasonal%20AutoRegressive%20Integrated%20Moving%20Average-blue?style=for-the-badge)
+
+</div>
+
+O modelo utiliza componentes sazonais para capturar padrões trimestrais nas receitas do Nubank, proporcionando previsões mais precisas e confiáveis.
+
+---
+
+## 🤝 **Contribuindo**
+
+<div align="center">
+
+![Contributors](https://img.shields.io/badge/Contribuidores-Bem%20Vindos!-brightgreen?style=for-the-badge)
+
+</div>
+
+1. 🍴 Fork o projeto
+2. 🌟 Crie sua feature branch (`git checkout -b feature/AmazingFeature`)
+3. 💾 Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
+4. 📤 Push para a branch (`git push origin feature/AmazingFeature`)
+5. 🔄 Abra um Pull Request
+
+---
+
+## 📄 **Licença**
+
+<div align="center">
+
+![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)
+
+Distribuído sob a Licença MIT. Veja `LICENSE` para mais informações.
+
+</div>
+
+---
+
+## 📞 **Contato & Suporte**
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/www.linkedin.com/in/jeancarlosodelima/)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/https://github.com/jeancarlosde-lima)
+
+</div>
+
+---
+
+<div align="center">
+
+### 🌟 **Se este projeto foi útil para você, considere dar uma estrela!** ⭐
+
+![GitHub stars](https://img.shields.io/github/stars/seu-usuario/nubank-revenue-forecast?style=social)
+![GitHub forks](https://img.shields.io/github/forks/seu-usuario/nubank-revenue-forecast?style=social)
+
+</div>
+
+---
+
+<div align="center">
+  <sub>Feito com ❤️ por <a href="https://github.com/seu-usuario">Seu Nome</a></sub>
+</div>
