@@ -36,7 +36,7 @@ Uma aplicação web inteligente que utiliza **Machine Learning** para prever a r
 
 ---
 
-# 🎬 **Demonstração da Aplicação**     ← INSERIR AQUI
+# 🎬 **Demonstração da Aplicação**
 
 <div align="center">
 
@@ -47,10 +47,10 @@ Uma aplicação web inteligente que utiliza **Machine Learning** para prever a r
 
 ### 🌐 **Teste Agora - Demo ao Vivo**
 <div>
-  <a href="https://nubank-forecast.vercel.app" target="_blank">
+  <a href="receita-nubank-projeto-machine-learnin-production.up.railway.app" target="_blank">
     <img src="https://img.shields.io/badge/🚀%20TESTAR%20AGORA-Live%20Demo-success?style=for-the-badge&logo=vercel" alt="Demo ao Vivo" height="50">
   </a>
-  <a href="https://nubank-forecast-backup.railway.app" target="_blank">
+  <a href="receita-nubank-projeto-machine-learnin-production.up.railway.app" target="_blank">
     <img src="https://img.shields.io/badge/🔗%20Demo%20Alternativo-Railway-blue?style=for-the-badge&logo=railway" alt="Demo Backup" height="50">
   </a>
 </div>
@@ -59,8 +59,10 @@ Uma aplicação web inteligente que utiliza **Machine Learning** para prever a r
 
 <table>
   <tr>
-    <td align="center"><strong>🏠 Página Inicial</strong></td>
-    <td align="center"><strong>📊 Dashboard de Previsões</strong></td>
+    <td align="<img width="1408" height="521" alt="image" src="https://github.com/user-attachments/assets/1caa5bc1-d11d-4c2a-94c0-65b11d41ffd5" />
+"><strong>🏠 Página Inicial</strong></td>
+    <td align="<img width="1224" height="921" alt="image" src="https://github.com/user-attachments/assets/4150a11d-0051-44e6-adee-1884dd3b8123" />
+"><strong>📊 Dashboard de Previsões</strong></td>
   </tr>
   <tr>
     <td>
