@@ -1,4 +1,4 @@
-# 📊 Nubank Revenue Forecasting 🚀
+# ​ Nubank Revenue Forecasting 🚀
 
 <div align="center">
 
@@ -18,51 +18,39 @@
 
 ---
 
-## 🎯 **Sobre o Projeto**
+## ​ **Sobre o Projeto**
 
 Uma aplicação web inteligente que utiliza **Machine Learning** para prever a receita trimestral do Nubank! Com interface moderna e intuitiva, permite análises precisas de séries temporais usando o poderoso modelo **SARIMA**.
 
-### ✨ **Destaques**
-- 🔮 **Previsões Precisas**: Modelo SARIMA otimizado para dados financeiros
-- 📈 **Visualização Interativa**: Gráficos dinâmicos com Chart.js
-- 🎨 **Interface Moderna**: Design responsivo e user-friendly
-- ⚡ **Performance Otimizada**: Carregamento rápido e processamento eficiente
-
-### ✨ **Destaques**
-- 🔮 **Previsões Precisas**: Modelo SARIMA otimizado para dados financeiros
-- 📈 **Visualização Interativa**: Gráficos dinâmicos com Chart.js
-- 🎨 **Interface Moderna**: Design responsivo e user-friendly
+### ​ **Destaques**
+- 🔮 **Previsões Precisas**: Modelo SARIMA otimizado para dados financeiros  
+- 📈 **Visualização Interativa**: Gráficos dinâmicos com Chart.js  
+- 🎨 **Interface Moderna**: Design responsivo e user-friendly  
 - ⚡ **Performance Otimizada**: Carregamento rápido e processamento eficiente
 
 ---
 
-# 🎬 **Demonstração da Aplicação**
+# ​ **Demonstração da Aplicação**
 
 <div align="center">
 
-## 🚀 **Veja a Aplicação em Ação!**
+## ​ **Veja a Aplicação em Ação!**
 
-### 🎥 **Navegação Completa (GIF)**
+###  **Navegação Completa (GIF)**
 ![Demo da Aplicação](assets/demo/nubank-forecast-demo.gif)
 
-### 🌐 **Teste Agora - Demo ao Vivo**
+###  **Teste Agora — Demo ao Vivo**
 <div>
-  <a href="receita-nubank-projeto-machine-learnin-production.up.railway.app" target="_blank">
-    <img src="https://img.shields.io/badge/🚀%20TESTAR%20AGORA-Live%20Demo-success?style=for-the-badge&logo=vercel" alt="Demo ao Vivo" height="50">
-  </a>
-  <a href="receita-nubank-projeto-machine-learnin-production.up.railway.app" target="_blank">
-    <img src="https://img.shields.io/badge/🔗%20Demo%20Alternativo-Railway-blue?style=for-the-badge&logo=railway" alt="Demo Backup" height="50">
-  </a>
+  [![🚀 TESTAR AGORA — Live Demo](https://img.shields.io/badge/🚀%20TESTAR%20AGORA-Live%20Demo-success?style=for-the-badge&logo=vercel)](https://receita-nubank-projeto-machine-learnin-production.up.railway.app)
+  [![🔗 Demo Alternativo — Railway](https://img.shields.io/badge/🔗%20Demo%20Alternativo-Railway-blue?style=for-the-badge&logo=railway)](https://receita-nubank-projeto-machine-learnin-production.up.railway.app)
 </div>
 
-### 📸 **Screenshots da Interface**
+###  **Screenshots da Interface**
 
 <table>
   <tr>
-    <td align="<img width="1408" height="521" alt="image" src="https://github.com/user-attachments/assets/1caa5bc1-d11d-4c2a-94c0-65b11d41ffd5" />
-"><strong>🏠 Página Inicial</strong></td>
-    <td align="<img width="1224" height="921" alt="image" src="https://github.com/user-attachments/assets/4150a11d-0051-44e6-adee-1884dd3b8123" />
-"><strong>📊 Dashboard de Previsões</strong></td>
+    <td align="center"><strong>🏠 Página Inicial</strong></td>
+    <td align="center"><strong>📊 Dashboard de Previsões</strong></td>
   </tr>
   <tr>
     <td>
@@ -98,11 +86,11 @@ Uma aplicação web inteligente que utiliza **Machine Learning** para prever a r
 
 ---
 
-## 🎯 **Guia Rápido da Demo**
+##  **Guia Rápido da Demo**
 
 <div align="center">
 
-### 📋 **Em 3 Simples Passos**
+###  **Em 3 Simples Passos**
 
 </div>
 
@@ -122,23 +110,18 @@ Uma aplicação web inteligente que utiliza **Machine Learning** para prever a r
 
 ---
 
-## 🚀 **Funcionalidades**    
+##  **Funcionalidades**    
 
 | Funcionalidade | Descrição |
 |---|---|
-| 📊 **Previsão Inteligente** | Gera previsões para 1-12 trimestres futuros |
-## 🚀 **Funcionalidades**
-
-| Funcionalidade | Descrição |
-|---|---|
-| 📊 **Previsão Inteligente** | Gera previsões para 1-12 trimestres futuros |
-| 📈 **Visualização Avançada** | Gráficos interativos com dados históricos e previsões |
-| 📋 **Relatórios Detalhados** | Tabelas com intervalos de confiança e métricas |
-| 🎯 **Interface Intuitiva** | UX/UI otimizada para análise de dados |
+|  **Previsão Inteligente** | Gera previsões para 1-12 trimestres futuros |
+|  **Visualização Avançada** | Gráficos interativos com dados históricos e previsões |
+|  **Relatórios Detalhados** | Tabelas com intervalos de confiança e métricas |
+|  **Interface Intuitiva** | UX/UI otimizada para análise de dados |
 
 ---
 
-## 🛠️ **Stack Tecnológica**
+##  **Stack Tecnológica**
 
 <div align="center">
 
@@ -152,14 +135,14 @@ Uma aplicação web inteligente que utiliza **Machine Learning** para prever a r
 
 ---
 
-## ⚡ **Quick Start**
+##  **Quick Start**
 
-### 📋 **Pré-requisitos**
-- Python 3.8+
-- pip
+###  **Pré-requisitos**
+- Python 3.8+  
+- pip  
 - Ambiente virtual (recomendado)
 
-### 🚀 **Instalação Rápida**
+###  **Instalação Rápida**
 
 ```bash
 # Clone o repositório
@@ -171,26 +154,20 @@ source .venv/bin/activate
 
 # Execute o servidor
 ./devserver.sh
-```
+<div align="center"> <img src="https://img.shields.io/badge/🎉%20Pronto!-Acesse%20sua%20aplicação-success?style=for-the-badge" alt="Ready"> </div>
+Como Usar
+Defina o Período: Escolha de 1 a 12 trimestres para previsão
 
-<div align="center">
-  <img src="https://img.shields.io/badge/🎉%20Pronto!-Acesse%20sua%20aplicação-success?style=for-the-badge" alt="Ready">
-</div>
+Execute a Análise: Clique em "Prever" e aguarde o processamento
 
----
+Visualize os Resultados: Analise gráficos interativos e tabelas detalhadas
 
-## 📱 **Como Usar**
+Tome Decisões: Use as insights para planejamento estratégico
 
-1. **🎯 Defina o Período**: Escolha de 1 a 12 trimestres para previsão
-2. **🚀 Execute a Análise**: Clique em "Prever" e aguarde o processamento
-3. **📊 Visualize os Resultados**: Analise gráficos interativos e tabelas detalhadas
-4. **💡 Tome Decisões**: Use as insights para planejamento estratégico
-
----
-
-## 🏗️ **Arquitetura do Sistema**
-
-```mermaid
+Arquitetura do Sistema
+mermaid
+Copiar
+Editar
 graph TD
     A[👤 Usuário] --> B[🌐 Interface Web]
     B --> C[⚙️ Flask Server]
@@ -198,72 +175,45 @@ graph TD
     D --> E[📊 Previsões]
     E --> F[📈 Visualização]
     F --> B
-```
-
----
-
-## 📈 **Metodologia SARIMA**
-
+Metodologia SARIMA
 <div align="center">
 
-![SARIMA](https://img.shields.io/badge/SARIMA-Seasonal%20AutoRegressive%20Integrated%20Moving%20Average-blue?style=for-the-badge)
 
 </div>
-
 O modelo utiliza componentes sazonais para capturar padrões trimestrais nas receitas do Nubank, proporcionando previsões mais precisas e confiáveis.
 
----
-
-## 🤝 **Contribuindo**
-
+Contribuindo
 <div align="center">
 
-![Contributors](https://img.shields.io/badge/Contribuidores-Bem%20Vindos!-brightgreen?style=for-the-badge)
 
 </div>
+Fork o projeto
 
-1. 🍴 Fork o projeto
-2. 🌟 Crie sua feature branch (`git checkout -b feature/AmazingFeature`)
-3. 💾 Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
-4. 📤 Push para a branch (`git push origin feature/AmazingFeature`)
-5. 🔄 Abra um Pull Request
+Crie sua feature branch (git checkout -b feature/AmazingFeature)
 
----
+Commit suas mudanças (git commit -m 'Add some AmazingFeature')
 
-## 📄 **Licença**
+Push para a branch (git push origin feature/AmazingFeature)
 
+Abra um Pull Request
+
+Licença
 <div align="center">
 
-![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)
 
-Distribuído sob a Licença MIT. Veja `LICENSE` para mais informações.
+Distribuído sob a Licença MIT. Veja LICENSE para mais informações.
 
 </div>
-
----
-
-## 📞 **Contato & Suporte**
-
+Contato & Suporte
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jeancarlosodelima/)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jeancarlosde-lima)
+
 
 </div>
-
----
-
 <div align="center">
+Se este projeto foi útil para você, considere dar uma estrela! ⭐
 
-### 🌟 **Se este projeto foi útil para você, considere dar uma estrela!** ⭐
 
-![GitHub stars](https://img.shields.io/github/stars/seu-usuario/nubank-revenue-forecast?style=social)
-![GitHub forks](https://img.shields.io/github/forks/seu-usuario/nubank-revenue-forecast?style=social)
 
 </div>
-
----
-
-<div align="center">
-  <sub>Feito por <a href="https://github.com/jeancarlosde-lima">Jean Lima</a></sub>
-</div>
+<div align="center"> <sub>Feito por <a href="https://github.com/jeancarlosde-lima">Jean Lima</a></sub> </div> ```
