@@ -58,14 +58,14 @@ Uma aplicação web inteligente que utiliza **Machine Learning** para prever a r
   </tr>
   <tr>
     <td>
-            <img src="https://github.com/jeancarlosde-lima/[NOME_DO_SEU_REPOSITORIO]/raw/main/assets/screenshots/home-interface.png" alt="Interface Principal" width="400"/>
+            <img src="URL_DA_SUA_IMAGEM_PAGINA_INICIAL" alt="Interface Principal" width="400"/>
       <br/>
-      <em>Interface intuitiva para configuração</em>
+      <em>Interface intuitiva para configuração.</em>
     </td>
     <td>
-            <img src="https://github.com/jeancarlosde-lima/[NOME_DO_SEU_REPOSITORIO]/raw/main/assets/screenshots/forecast-results.png" alt="Resultados da Previsão" width="400"/>
+            <img src="URL_DA_SUA_IMAGEM_DASHBOARD" alt="Resultados da Previsão" width="400"/>
       <br/>
-      <em>Visualização avançada dos resultados</em>
+      <em>Visualização avançada dos resultados.</em>
     </td>
   </tr>
   <tr>
@@ -74,20 +74,18 @@ Uma aplicação web inteligente que utiliza **Machine Learning** para prever a r
   </tr>
   <tr>
     <td>
-            <img src="https://github.com/jeancarlosde-lima/[NOME_DO_SEU_REPOSITORIO]/raw/main/assets/screenshots/interactive-charts.png" alt="Gráficos Interativos" width="400"/>
+            <img src="https://github.com/jeancarlosde-lima/Receita-Nubank---Projeto-Machine-Learnin/blob/main/grafico.png" alt="Gráficos Interativos" width="400"/>
       <br/>
-      <em>Charts dinâmicos com Chart.js</em>
+      <em>Charts dinâmicos com Chart.js.</em>
     </td>
     <td>
-            <img src="https://github.com/jeancarlosde-lima/[NOME_DO_SEU_REPOSITORIO]/raw/main/assets/screenshots/mobile-responsive.png" alt="Versão Mobile" width="400"/>
+            <img src="https://github.com/jeancarlosde-lima/[Receita-Nubank---Projeto-Machine-Learnin
+]/raw/main/assets/screenshots/mobile-responsive.png" alt="Versão Mobile" width="400"/>
       <br/>
-      <em>Design responsivo para todos os dispositivos</em>
+      <em>Design responsivo para todos os dispositivos.</em>
     </td>
   </tr>
 </table>
-
-</div>
-
 ---
 
 ## 🎯 **Guia Rápido da Demo**
